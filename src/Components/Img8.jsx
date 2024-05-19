@@ -1,9 +1,10 @@
 import React from 'react'
+import img8 from '../Images/Img8.jpg'
 
 function Img8() {
     return (
       <div>
-        <img src='../images/Img8.jpg' alt="jpg" />
+        <img className='img8'src={img8} alt="jpg" />
       </div>
     );
   }
