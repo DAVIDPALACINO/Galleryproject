@@ -1,26 +1,34 @@
+body{
+    background: rgb(3, 3, 3);
+    background: linear-gradient(90deg, rgb(4, 3, 9) 0%, rgb(77, 77, 254) 35%, rgb(247, 85, 16) 100%);
+color: white;
+    }
+
 .img0{
-    width: 400px;
+margin-left: 30%;
+width: 500px;
 }
 
-.img4{
-    width: 400px;
-}
 
-.img5{
-    width: 400px;
-}
-.img6{
-    width: 400px;
-}
+.Gallery{
+    width: 100px;
+    
+} 
 
-.img7{
-    width: 400px;
-}
 
-.img8{
-    width: 400px;
-}
+* {
+    text-decoration-line: none;
+    }
 
-.img9{
-    width: 400px;
+.column {
+    float: left;
+    width: 16.66%;
+    }
+
+.box {
+ margin-top: 10%;}
+
+
+.text-Gallery {
+    margin-left: 40%;
 }

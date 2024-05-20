@@ -4,7 +4,7 @@ import img5 from '../Images/Img5.jpeg'
 function Img5() {
     return (
       <div>
-        <img className='img5'src={img5} alt="jpeg" />
+        <img className='img0' src={img5} alt="jpeg" />
       </div>
     );
   }

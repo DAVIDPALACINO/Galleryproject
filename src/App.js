@@ -16,7 +16,6 @@ function App() {
   return (
     <BrowserRouter>
         <Routes>
-
           <Route path='/Img0' element={<Img0/>}        />
           <Route path='/Img4' element={<Img4/>}        />
           <Route path='/Img5' element={<Img5/>}        />
@@ -26,7 +25,6 @@ function App() {
           <Route path='/Img9' element={<Img9/>}        />
         </Routes>
         <Navigation/>
-    
     </BrowserRouter>
     
 
