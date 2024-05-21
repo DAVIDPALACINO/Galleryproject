@@ -1,12 +1,12 @@
 import React from 'react'
 import img7 from '../Images/Img7.jpg'
 
-function Img7() {
-    return (
-      <div>
-        <img className='img0'src={img7} alt="jpg" />
-      </div>
-    );
-  }
-  
-  export default Img7;
+const Img7 = ({ className }) => {
+  return (
+    <div className={`image-container ${className}`}>
+      <img src={img7} alt="img.jpg" className="images"/>
+    </div>
+  );
+}
+
+export default Img7;

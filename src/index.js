@@ -6,7 +6,7 @@ import App from './App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode><h3 className='text-Gallery'>GALLERY</h3>
+  <React.StrictMode>
     <App />
   </React.StrictMode>
 );

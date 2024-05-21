@@ -1,9 +1,10 @@
 import React from 'react'
 import img0 from '../Images/Img0.jpg'
-function Img0() {
+
+const Img0 = ({ className }) => {
     return (
-      <div>
-        <img className='img0' src={img0} alt="jpg" />
+      <div className={`image-container ${className}`}>
+        <img src={img0} alt="img.jpg" className="images"/>
       </div>
     );
   }
